@@ -1,0 +1,248 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* home css */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.news-item {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  color: #555;
+}
+
+.title {
+  color: #222;
+  font-size: 24px;
+}
+
+.published-date {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.image {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #555;
+}
+
+.read-more {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+
+/* App.css atau file CSS terpisah */
+
+/* Background utama */
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Header berita */
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Card berita */
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.text-muted {
+  font-size: 14px;
+}
+
+/* Tombol Baca Selengkapnya */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* navbar.css */
+.navbar-brand {
+  font-weight: bold;
+}
+
+
+
+/* CSS contoh untuk struktur tata letak */
+
+/* Gaya sidebar */
+.sidebar {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.sidebar h3 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 8px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Gaya card berita */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.text-muted {
+  font-size: 14px;
+}
+
+
+/* App.css */
+/* Tambahkan gaya Bootstrap kustom di sini */
+
+/* Gaya untuk brand navbar */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; /* Warna biru, bisa diganti dengan warna pilihan Anda */
+}
+
+/* Gaya untuk link navbar */
+.nav-link {
+  font-size: 18px;
+  color: #333; /* Warna abu-abu gelap, bisa diganti dengan warna pilihan Anda */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Warna biru ketika di-hover, bisa diganti dengan warna pilihan Anda */
+}
